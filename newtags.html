@@ -1,10 +1,42 @@
 <html>
+    <head>
+        <style>
+            #one {
+                background-color: pink;
+                font-family: Arial;
+            }
+            #two {
+                background-color: chartreuse;
+                border:aqua  solid;
+            }
+        </style>
+    </head>
     <body>
         <video controls width="300" height="500" poster="IMG_3618.JPG">
             <source src="kojaii.MP4">
         </video>
         <hr>
-        <audio src="Homayoun Shajarian Tahmoures Pournazeri Souvashoun.mp3" controls></audio>
-        <iframe src="https://www.tgju.org/profile/sekee" width="100%" height="100%" frameborder="0"></iframe>
+        <audio src="Homayoun Shajarian Tahmoures Pournazeri Souvashoun.mp3" controls></audio> <br>
+        <form>
+            <label for="title">User name:</label>
+            <input type="text" name="Username" id="title" placeholder="Username"> <br>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass"> <br>
+            <label for="number">Enter your fucking number:</label>
+            <input type="number" name="num" id="number" placeholder="+98 912 111 1111"> <br>
+            <button>login</button>
+        </form> <br>
+        <div class="header" id="one">
+            The famous hello world
+        </div> <br>
+        <div class="header" id="two">
+            The second famous hello world
+        </div> <br>
+        <form>
+            <label for="lname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="fname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe">
+          </form>
     </body>
 </html>
